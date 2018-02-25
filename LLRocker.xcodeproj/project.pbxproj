@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29D29C31EF21E44054E2EAB5 /* libPods-LLRocker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 309D12F9741709B4661AB2EB /* libPods-LLRocker.a */; };
+		FD6B608C2041604F00493769 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6B608B2041604F00493769 /* AppDelegate.m */; };
+		FD6B608F2041604F00493769 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6B608E2041604F00493769 /* ViewController.m */; };
+		FD6B60922041604F00493769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6B60902041604F00493769 /* Main.storyboard */; };
+		FD6B60952041604F00493769 /* LLRocker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD6B60932041604F00493769 /* LLRocker.xcdatamodeld */; };
+		FD6B60972041604F00493769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6B60962041604F00493769 /* Assets.xcassets */; };
+		FD6B609A2041604F00493769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6B60982041604F00493769 /* LaunchScreen.storyboard */; };
+		FD6B609D2041604F00493769 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6B609C2041604F00493769 /* main.m */; };
+		FD6B60A72041604F00493769 /* LLRockerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6B60A62041604F00493769 /* LLRockerTests.m */; };
+		FD6B60B22041604F00493769 /* LLRockerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6B60B12041604F00493769 /* LLRockerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD6B60A32041604F00493769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD6B607F2041604F00493769 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD6B60862041604F00493769;
+			remoteInfo = LLRocker;
+		};
+		FD6B60AE2041604F00493769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD6B607F2041604F00493769 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD6B60862041604F00493769;
+			remoteInfo = LLRocker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		309D12F9741709B4661AB2EB /* libPods-LLRocker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLRocker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F820B585751D295B933090 /* Pods-LLRocker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLRocker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLRocker/Pods-LLRocker.debug.xcconfig"; sourceTree = "<group>"; };
+		EC13A3ADE4DFB1F0D71A0273 /* Pods-LLRocker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLRocker.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLRocker/Pods-LLRocker.release.xcconfig"; sourceTree = "<group>"; };
+		FD6B60872041604F00493769 /* LLRocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLRocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6B608A2041604F00493769 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD6B608B2041604F00493769 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD6B608D2041604F00493769 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD6B608E2041604F00493769 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD6B60912041604F00493769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD6B60942041604F00493769 /* LLRocker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LLRocker.xcdatamodel; sourceTree = "<group>"; };
+		FD6B60962041604F00493769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD6B60992041604F00493769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD6B609B2041604F00493769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6B609C2041604F00493769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD6B60A22041604F00493769 /* LLRockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLRockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6B60A62041604F00493769 /* LLRockerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLRockerTests.m; sourceTree = "<group>"; };
+		FD6B60A82041604F00493769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6B60AD2041604F00493769 /* LLRockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLRockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6B60B12041604F00493769 /* LLRockerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLRockerUITests.m; sourceTree = "<group>"; };
+		FD6B60B32041604F00493769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD6B60842041604F00493769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D29C31EF21E44054E2EAB5 /* libPods-LLRocker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6B609F2041604F00493769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6B60AA2041604F00493769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07C84DD21DDC6FD67E86387C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72F820B585751D295B933090 /* Pods-LLRocker.debug.xcconfig */,
+				EC13A3ADE4DFB1F0D71A0273 /* Pods-LLRocker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3412629A28276056BA967E54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				309D12F9741709B4661AB2EB /* libPods-LLRocker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD6B607E2041604F00493769 = {
+			isa = PBXGroup;
+			children = (
+				FD6B60892041604F00493769 /* LLRocker */,
+				FD6B60A52041604F00493769 /* LLRockerTests */,
+				FD6B60B02041604F00493769 /* LLRockerUITests */,
+				FD6B60882041604F00493769 /* Products */,
+				07C84DD21DDC6FD67E86387C /* Pods */,
+				3412629A28276056BA967E54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD6B60882041604F00493769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD6B60872041604F00493769 /* LLRocker.app */,
+				FD6B60A22041604F00493769 /* LLRockerTests.xctest */,
+				FD6B60AD2041604F00493769 /* LLRockerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD6B60892041604F00493769 /* LLRocker */ = {
+			isa = PBXGroup;
+			children = (
+				FD6B608A2041604F00493769 /* AppDelegate.h */,
+				FD6B608B2041604F00493769 /* AppDelegate.m */,
+				FD6B608D2041604F00493769 /* ViewController.h */,
+				FD6B608E2041604F00493769 /* ViewController.m */,
+				FD6B60902041604F00493769 /* Main.storyboard */,
+				FD6B60962041604F00493769 /* Assets.xcassets */,
+				FD6B60982041604F00493769 /* LaunchScreen.storyboard */,
+				FD6B609B2041604F00493769 /* Info.plist */,
+				FD6B609C2041604F00493769 /* main.m */,
+				FD6B60932041604F00493769 /* LLRocker.xcdatamodeld */,
+			);
+			path = LLRocker;
+			sourceTree = "<group>";
+		};
+		FD6B60A52041604F00493769 /* LLRockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD6B60A62041604F00493769 /* LLRockerTests.m */,
+				FD6B60A82041604F00493769 /* Info.plist */,
+			);
+			path = LLRockerTests;
+			sourceTree = "<group>";
+		};
+		FD6B60B02041604F00493769 /* LLRockerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD6B60B12041604F00493769 /* LLRockerUITests.m */,
+				FD6B60B32041604F00493769 /* Info.plist */,
+			);
+			path = LLRockerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD6B60862041604F00493769 /* LLRocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6B60B62041604F00493769 /* Build configuration list for PBXNativeTarget "LLRocker" */;
+			buildPhases = (
+				88A714FF50A9074441D9958B /* [CP] Check Pods Manifest.lock */,
+				FD6B60832041604F00493769 /* Sources */,
+				FD6B60842041604F00493769 /* Frameworks */,
+				FD6B60852041604F00493769 /* Resources */,
+				B3490ED1FA8219BCAA612189 /* [CP] Embed Pods Frameworks */,
+				ABC05B6FA89D9F317E4742C1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLRocker;
+			productName = LLRocker;
+			productReference = FD6B60872041604F00493769 /* LLRocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD6B60A12041604F00493769 /* LLRockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6B60B92041604F00493769 /* Build configuration list for PBXNativeTarget "LLRockerTests" */;
+			buildPhases = (
+				FD6B609E2041604F00493769 /* Sources */,
+				FD6B609F2041604F00493769 /* Frameworks */,
+				FD6B60A02041604F00493769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD6B60A42041604F00493769 /* PBXTargetDependency */,
+			);
+			name = LLRockerTests;
+			productName = LLRockerTests;
+			productReference = FD6B60A22041604F00493769 /* LLRockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD6B60AC2041604F00493769 /* LLRockerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6B60BC2041604F00493769 /* Build configuration list for PBXNativeTarget "LLRockerUITests" */;
+			buildPhases = (
+				FD6B60A92041604F00493769 /* Sources */,
+				FD6B60AA2041604F00493769 /* Frameworks */,
+				FD6B60AB2041604F00493769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD6B60AF2041604F00493769 /* PBXTargetDependency */,
+			);
+			name = LLRockerUITests;
+			productName = LLRockerUITests;
+			productReference = FD6B60AD2041604F00493769 /* LLRockerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD6B607F2041604F00493769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "第七代目";
+				TargetAttributes = {
+					FD6B60862041604F00493769 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FD6B60A12041604F00493769 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD6B60862041604F00493769;
+					};
+					FD6B60AC2041604F00493769 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD6B60862041604F00493769;
+					};
+				};
+			};
+			buildConfigurationList = FD6B60822041604F00493769 /* Build configuration list for PBXProject "LLRocker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD6B607E2041604F00493769;
+			productRefGroup = FD6B60882041604F00493769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD6B60862041604F00493769 /* LLRocker */,
+				FD6B60A12041604F00493769 /* LLRockerTests */,
+				FD6B60AC2041604F00493769 /* LLRockerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD6B60852041604F00493769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6B609A2041604F00493769 /* LaunchScreen.storyboard in Resources */,
+				FD6B60972041604F00493769 /* Assets.xcassets in Resources */,
+				FD6B60922041604F00493769 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6B60A02041604F00493769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6B60AB2041604F00493769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88A714FF50A9074441D9958B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLRocker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABC05B6FA89D9F317E4742C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LLRocker/Pods-LLRocker-resources.sh",
+				"${PODS_ROOT}/../LLRockerClass/LLRockerAssets.xcassets",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLRocker/Pods-LLRocker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3490ED1FA8219BCAA612189 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLRocker/Pods-LLRocker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD6B60832041604F00493769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6B60952041604F00493769 /* LLRocker.xcdatamodeld in Sources */,
+				FD6B608F2041604F00493769 /* ViewController.m in Sources */,
+				FD6B609D2041604F00493769 /* main.m in Sources */,
+				FD6B608C2041604F00493769 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6B609E2041604F00493769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6B60A72041604F00493769 /* LLRockerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6B60A92041604F00493769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6B60B22041604F00493769 /* LLRockerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD6B60A42041604F00493769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD6B60862041604F00493769 /* LLRocker */;
+			targetProxy = FD6B60A32041604F00493769 /* PBXContainerItemProxy */;
+		};
+		FD6B60AF2041604F00493769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD6B60862041604F00493769 /* LLRocker */;
+			targetProxy = FD6B60AE2041604F00493769 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD6B60902041604F00493769 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6B60912041604F00493769 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD6B60982041604F00493769 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6B60992041604F00493769 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD6B60B42041604F00493769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD6B60B52041604F00493769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD6B60B72041604F00493769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F820B585751D295B933090 /* Pods-LLRocker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Z4D9LT34;
+				INFOPLIST_FILE = LLRocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguanwen.LLRocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD6B60B82041604F00493769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC13A3ADE4DFB1F0D71A0273 /* Pods-LLRocker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Z4D9LT34;
+				INFOPLIST_FILE = LLRocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguanwen.LLRocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD6B60BA2041604F00493769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Z4D9LT34;
+				INFOPLIST_FILE = LLRockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguanwen.LLRockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLRocker.app/LLRocker";
+			};
+			name = Debug;
+		};
+		FD6B60BB2041604F00493769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Z4D9LT34;
+				INFOPLIST_FILE = LLRockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguanwen.LLRockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLRocker.app/LLRocker";
+			};
+			name = Release;
+		};
+		FD6B60BD2041604F00493769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Z4D9LT34;
+				INFOPLIST_FILE = LLRockerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguanwen.LLRockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LLRocker;
+			};
+			name = Debug;
+		};
+		FD6B60BE2041604F00493769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Z4D9LT34;
+				INFOPLIST_FILE = LLRockerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguanwen.LLRockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LLRocker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD6B60822041604F00493769 /* Build configuration list for PBXProject "LLRocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6B60B42041604F00493769 /* Debug */,
+				FD6B60B52041604F00493769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6B60B62041604F00493769 /* Build configuration list for PBXNativeTarget "LLRocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6B60B72041604F00493769 /* Debug */,
+				FD6B60B82041604F00493769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6B60B92041604F00493769 /* Build configuration list for PBXNativeTarget "LLRockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6B60BA2041604F00493769 /* Debug */,
+				FD6B60BB2041604F00493769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6B60BC2041604F00493769 /* Build configuration list for PBXNativeTarget "LLRockerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6B60BD2041604F00493769 /* Debug */,
+				FD6B60BE2041604F00493769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD6B60932041604F00493769 /* LLRocker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD6B60942041604F00493769 /* LLRocker.xcdatamodel */,
+			);
+			currentVersion = FD6B60942041604F00493769 /* LLRocker.xcdatamodel */;
+			path = LLRocker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD6B607F2041604F00493769 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - LLRocker (1.0.0)
+
+DEPENDENCIES:
+  - LLRocker (from `.`)
+
+EXTERNAL SOURCES:
+  LLRocker:
+    :path: .
+
+SPEC CHECKSUMS:
+  LLRocker: 4a28cdea15d84773f800d070455d11e5d606e8ab
+
+PODFILE CHECKSUM: 5c0c6fc9b2ed0b1890c42a735a9cfcf98f51ff1e
+
+COCOAPODS: 1.3.0.beta.2
